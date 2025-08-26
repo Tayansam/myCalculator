@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://cdn.jsdelivr.net/npm/mathjs@12.4.1/lib/browser/math.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Sam Responsive Calculator UI</title>
+
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="calculator" role="application" aria-label="Calculator">
+
+      <label for="">Sam Calculator</label>
+      <input id="display" class="display" type="text" inputmode="decimal" readonly aria-readonly="true" />
+
+      <div class="keys" aria-label="Calculator keypad">
+        <button class="btn fn" id="clear" aria-label="All Clear">AC</button>
+        <button class="btn fn danger span-2" id="delete" aria-label="Delete">DEL</button>
+        <button class="btn op" data-value="/" aria-label="Divide">÷</button>
+
+        <button class="btn" data-value="7" aria-label="Seven">7</button>
+        <button class="btn" data-value="8" aria-label="Eight">8</button>
+        <button class="btn" data-value="9" aria-label="Nine">9</button>
+        <button class="btn op" data-value="*" aria-label="Multiply">×</button>
+
+        <button class="btn" data-value="4" aria-label="Four">4</button>
+        <button class="btn" data-value="5" aria-label="Five">5</button>
+        <button class="btn" data-value="6" aria-label="Six">6</button>
+        <button class="btn op" data-value="-" aria-label="Minus">−</button>
+
+        <button class="btn" data-value="1" aria-label="One">1</button>
+        <button class="btn" data-value="2" aria-label="Two">2</button>
+        <button class="btn" data-value="3" aria-label="Three">3</button>
+        <button class="btn op" data-value="+" aria-label="Plus">+</button>
+
+        <button class="btn span-2" data-value="0" aria-label="Zero">0</button>
+        <button class="btn" data-value="." aria-label="Decimal Point">.</button>
+        <button class="btn equals" id="equals" aria-label="Equals">=</button>
+      </div>
+
+    </div>
+    <script src="script.js"> </script>
+</body>
+
+</html>
