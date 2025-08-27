@@ -159,6 +159,10 @@ label {
     min-height: 52px;
     border-radius: 12px;
   }
+  label {
+    font-size: 16px;
+    color: black;
+  }
   .display {
     padding: 14px;
     border-radius: 14px;
